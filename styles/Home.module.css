@@ -1,0 +1,60 @@
+
+
+.d_imgs{
+  margin: 1rem auto 1rem auto;
+  width:82vw;
+  height:20rem;
+  background: rgb(208, 219, 206);
+  border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.d_busqueda{
+  margin:auto auto;
+  width:23rem;
+  height:5rem;
+  background: rgb(201, 220, 223);
+  border-radius: 0.2rem 0.2rem  0.2rem  0.2rem ;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-around;
+  border:solid 0.1rem rgb(217, 221, 228);
+  box-shadow: 0.3rem 0.2rem 0.3rem 0.1rem rgb(177, 182, 182);
+}
+
+
+.d_qry_imgs00{
+  width:19vw;
+  height:18.5rem;
+  background:rgb(228, 232, 238);
+
+border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+box-shadow: 0.2rem 0.2rem 0.3rem 0.3rem rgb(169, 190, 196) ;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
+
+@media only screen and (max-width:426px){
+
+  .d_imgs{
+    height:45rem;
+    width:95vw;
+    flex-flow: column nowrap;
+  }
+
+.d_qry_imgs00{
+  width:80vw;
+  height:10.5rem;
+}
+  
+}
+
+
